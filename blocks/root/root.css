@@ -1,0 +1,19 @@
+:root {
+  --color__bg_dark: #2A2C2F;
+  --color__text: #fff;
+  --color__text_caption: #AAA;
+
+  --gap__section: 92px; /*92 88 64*/
+  --gap__article: 80px; /*80 73 50*/
+
+  --font__size_title: 102px;
+  --font__size_super: 120px;
+  --font__size_xl: 60px;
+  --font__size_l: 36px;
+  --font__size_xm: 30px;
+  --font__size_m: 24px;
+  --font__size_s: 18px;
+
+  --font__weight_reg: 400;
+  --font__weight_black: 900;
+}
