@@ -1,10 +1,11 @@
 .page {
   min-width: 1280px;
-  /* max-width: 1600px; */
+  max-width: 1600px;
   margin: 0 auto;
+  padding: 28px 48px 24px; /* 28-24-24 → 16-16-24*/
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-  color: var(--color__text);
   background-color: var(--color__bg_dark);
+  color: var(--color__text);
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
