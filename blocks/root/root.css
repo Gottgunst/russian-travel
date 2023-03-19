@@ -3,32 +3,69 @@
   --color__text: #fff;
   --color__text_caption: #AAA;
 
-  --gap__section: 92px; /* 88 → 64*/
-  --gap__article: 80px; /* 73 → 50*/
+  --gap__section: 92px;
+  --gap__article: 80px;
 
-  --font-size__title_page: 96px; /* → 40*/
-  --font-size__title_article: 72px; /* 42 → 32*/
-  --font-size__title_intro: 54px; /* → 32*/
-  --font-size__subtitle_page: 30px; /* → 16*/
-  --font-size__subtitle_cover: 18px; /* → 16*/
-  --font-size__p: 18px; /* → 14*/
+  --font-size__title_page: 96px;
+  --font-size__title_article: 72px;
+  --font-size__title_intro: 54px;
+  --font-size__subtitle_page: 30px;
+  --font-size__subtitle_cover: 18px;
+  --font-size__p_article: 18px;
   --font-size__p_intro: 16px;
-  --font-size__link_header: 24px; /* → 18*/
+  --font-size__link_header: 24px;
   --font-size__link_article: 18px;
-  --font-size__link_footer: 16px; /* → 24*/
+  --font-size__link_footer: 16px;
   --font-size__copyright: 14px;
   --font-size__list: 12px;
   --font-size__caption: 10px;
 
-  --line-height__title_page: 100px; /* → 44*/
-  --line-height__title_article: 76px; /* 46 → 35*/
-  --line-height__title_intro: 58px; /* → 35*/
-  --line-height__subtitle_page: 36px;/* → 20*/
-  --line-height__subtitle_cover: 22px;/* → 16*/
+  --line-height__title_page: 100px;
+  --line-height__title_article: 76px;
+  --line-height__title_intro: 58px;
+  --line-height__subtitle_page: 36px;
+  --line-height__subtitle_cover: 22px;
   --line-height__p: 163%;
   --line-height__line: 1;
   --line-height__list: 18px;
 
   --font-weight_reg: 400;
   --font-weight_black: 900;
+
+}
+
+/* @media screen and (max-width: 1279px) {
+  :root {}
+} */
+
+@media screen and (max-width: 1023px) {
+  :root {
+    --gap__section: 88px;
+    --gap__article: 73px;
+
+    --font-size__title_article: 42px;
+    --line-height__title_article: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --gap__section: 64px;
+    --gap__article: 50px;
+
+    --font-size__title_page: 40px;
+    --font-size__title_article: 32px;
+    --font-size__title_intro: 32px;
+    --font-size__subtitle_page: 16px;
+    --font-size__subtitle_cover: 16px;
+    --font-size__p_article: 14px;
+    --font-size__link_header: 18px;
+    --font-size__link_footer: 24px;
+
+    --line-height__title_page: 44px;
+    --line-height__title_article: 35px;
+    --line-height__title_intro: 35px;
+    --line-height__subtitle_page: 20px;
+    --line-height__subtitle_cover: 16px;
+  }
 }

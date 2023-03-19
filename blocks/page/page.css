@@ -1,8 +1,9 @@
 .page {
-  min-width: 1280px;
-  max-width: 1600px;
+  max-width: 1440px;
+  min-width: 320px;
+
   margin: 0 auto;
-  padding: 28px 48px 24px; /* 28-24-24 → 16-16-24*/
+  padding: 28px 48px 24px;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   background-color: var(--color__bg_dark);
   color: var(--color__text);
@@ -15,6 +16,21 @@
   -moz-text-size-adjust: 100%;
 }
 
+
+/* @media screen and (max-width: 1279px) {
+  .page {}
+} */
+
+@media screen and (max-width: 1023px) {
+  .page {
+    padding: 28px 24px 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page {
+    padding: 16px 16px 24px;
+  }
+}
 
 
 
