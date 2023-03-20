@@ -1,8 +1,41 @@
 .header__lang-link {
-  display: flex;
-  list-style: none;
+  background: none;
   margin: 0;
   padding: 0;
+  border:0;
+  color: var(--color__text);
+  box-sizing: border-box;
 
-  font-size: ;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity var(--transition);
+}
+
+.header__lang-link:hover {
+  color: var(--color__text);
+  opacity: .8;
+  cursor: pointer;
+}
+
+.header__lang-link:visited {
+  color: var(--color__text);
+}
+
+.header__lang-link:focus {
+  border: 1px solid var(--color__text);
+}
+
+.header__lang-link:disabled {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.header__lang-link:disabled:hover {
+  opacity: 1;
+  text-decoration: underline;
+  cursor: default;
+}
+
+.header__lang-link:disabled:focus {
+  border: 1px solid var(--color__text);
 }

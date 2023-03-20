@@ -1,0 +1,11 @@
+.header__lang-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
+
+  font-size: var(--font-size__link_header);
+  line-height: var(--line-height__line);
+  font-weight: var(--font-weight_reg);
+}
