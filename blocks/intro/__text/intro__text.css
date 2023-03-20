@@ -1,2 +1,8 @@
+.intro__text {
+  margin: 0 0 33px;
+  padding: 0;
 
-.intro__text {}
+  font-size: var(--font-size__p_intro);
+  line-height: var(--line-height__p);
+  font-weight: var(--font-weight_reg);
+}

@@ -1,1 +1,18 @@
-.place__paragraph {}
+.place__paragraph {
+  margin: 0;
+  padding: 0;
+
+  font-size: var(--font-size__p_article);
+  line-height: var(--line-height__p);
+  font-weight: var(--font-weight_reg);
+}
+
+.place__paragraph:nth-of-type(2){
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 var(--padding__section);
+  }
+}

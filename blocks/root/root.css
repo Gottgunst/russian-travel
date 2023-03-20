@@ -6,6 +6,8 @@
   --gap__section: 92px;
   --gap__article: 80px;
 
+  --padding__section: 100px;
+
   --font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 
   --font-size__title_page: 96px;
@@ -34,17 +36,21 @@
   --font-weight_reg: 400;
   --font-weight_black: 900;
 
-  --transition: .3s ease-out;
+  --transition: opacity .1s easy-out;
 }
 
-/* @media screen and (max-width: 1279px) {
-  :root {}
-} */
+@media screen and (max-width: 1279px) {
+  :root {
+    --padding__section: 48px;
+  }
+}
 
 @media screen and (max-width: 1023px) {
   :root {
     --gap__section: 88px;
     --gap__article: 73px;
+
+    --padding__section: 24px;
 
     --font-size__title_article: 42px;
     --line-height__title_article: 46px;
@@ -55,6 +61,8 @@
   :root {
     --gap__section: 64px;
     --gap__article: 50px;
+
+    --padding__section: 16px;
 
     --font-size__title_page: 40px;
     --font-size__title_article: 32px;

@@ -1,1 +1,9 @@
-.intro__list {}
+.intro__list {
+  margin: 0;
+  padding: 0;
+
+  font-size: var(--font-size__list);
+  line-height: var(--line-height__list);
+  font-weight: var(--font-weight_black);
+  list-style: none;
+}

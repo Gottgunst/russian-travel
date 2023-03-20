@@ -1,1 +1,6 @@
-.intro {}
+.intro {
+  max-width: calc(690px + (var(--padding__section)*2));
+  width: 100%;
+  padding: 0 var(--padding__section);
+  box-sizing: border-box;
+}

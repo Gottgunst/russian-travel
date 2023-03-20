@@ -1,3 +1,9 @@
 .intro__title {
+  margin: 0 0 40px;
+  padding: 0;
+
+  font-size: var(--font-size__title_intro);
+  line-height: var(--line-height__title_intro);
+  font-weight: var(--font-weight_black);
   text-rendering: optimizeLegibility;
 }
