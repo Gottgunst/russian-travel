@@ -1,7 +1,7 @@
 .header__lang-link {
   background: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 8px;
   border:0;
   opacity: 1;
   color: var(--color__text);

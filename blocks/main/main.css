@@ -1,1 +1,19 @@
-.main {}
+.main {
+  padding: 0 48px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .main{
+    padding: 0;
+  }
+}
+
+/* @media screen and (max-width: 1023px) {
+  .main {}
+} */
+
+/* @media screen and (max-width: 767px) {
+  .main {}
+} */
