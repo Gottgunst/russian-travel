@@ -7,6 +7,29 @@
        url('../vendor/fonts/Inter-Regular.woff') format('woff'),
        url('../vendor/fonts/Inter-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../vendor/fonts/Inter-Bold.woff2') format('woff2'),
+       url('../vendor/fonts/Inter-Bold.woff') format('woff'),
+       url('../vendor/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+ /* Исключение ради блока intro__list — цифры будут как regular*/
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+30-39;
+  src: url('../vendor/fonts/Inter-Regular.woff2') format('woff2'),
+       url('../vendor/fonts/Inter-Regular.woff') format('woff'),
+       url('../vendor/fonts/Inter-Regular.ttf') format('truetype');
+}
+
 @font-face {
   font-family: 'Inter';
   font-style: normal;

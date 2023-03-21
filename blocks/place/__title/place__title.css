@@ -1,13 +1,13 @@
 .place__title {
   margin: 0;
   padding: 0;
-  width: 460px;
+  width: 100%;
+  box-sizing: border-box;
   font-size: var(--font-size__title_article);
   line-height: var(--line-height__title_article);
   font-weight: var(--font-weight_black);
   text-rendering: optimizeLegibility;
 }
-
 
 @media screen and (max-width: 767px) {
   .place__title {

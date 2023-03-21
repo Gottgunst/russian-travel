@@ -1,7 +1,7 @@
 :root {
   --color__bg_dark: #2A2C2F;
   --color__text: #fff;
-  --color__text_caption: #AAA;
+  --color__text_caption:#AAA;
 
   --gap__section: 92px;
   --gap__article: 80px;
@@ -34,9 +34,11 @@
   --line-height__list: 18px;
 
   --font-weight_reg: 400;
+  --font-weight_bold: 600;
   --font-weight_black: 900;
 
-  --transition: opacity .1s easy-out;
+  --trans__link: opacity .5s ease-out;
+  --trans__cover: opacity .5s ease-out;
 }
 
 @media screen and (max-width: 1279px) {
@@ -64,18 +66,18 @@
 
     --padding__section: 16px;
 
-    --font-size__title_page: 40px;
-    --font-size__title_article: 32px;
-    --font-size__title_intro: 32px;
+    --font-size__title_page:  clamp(40px,10vw,96px);
+    --font-size__title_article: clamp(32px,7vw,42px);
+    --font-size__title_intro: clamp(32px,7vw,42px);
     --font-size__subtitle_page: 16px;
-    --font-size__subtitle_cover: 16px;
+    --font-size__subtitle_cover: 14px;
     --font-size__p_article: 14px;
     --font-size__link_header: 18px;
     --font-size__link_footer: 24px;
 
-    --line-height__title_page: 44px;
-    --line-height__title_article: 35px;
-    --line-height__title_intro: 35px;
+    --line-height__title_page: clamp(44px,10vw,100px);
+    --line-height__title_article: clamp(35px,7vw,46px);
+    --line-height__title_intro: clamp(35px,7vw,46px);
     --line-height__subtitle_page: 20px;
     --line-height__subtitle_cover: 16px;
   }

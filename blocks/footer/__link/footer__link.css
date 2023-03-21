@@ -1,1 +1,14 @@
-.footer__link {}
+.footer__link {
+  text-decoration: none;
+  color: var(--color__text);
+  opacity: 1;
+  transition: var(--trans__link);
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+.footer__link:visited {
+  color: var(--color__text);
+}

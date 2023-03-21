@@ -1,1 +1,15 @@
-.cover__subtitle {}
+.cover__subtitle {
+  margin: 0;
+  padding: 0;
+  width: 360px;
+  font-size: var(--font-size__subtitle_cover);
+  line-height: var(--line-height__subtitle_cover);
+  font-weight: var(--font-weight_reg);
+  z-index: 10;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle  {
+    width: 288px;
+  }
+}

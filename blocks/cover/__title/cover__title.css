@@ -1,3 +1,27 @@
 .cover__title {
+  margin: 0 0 32px;
+  padding: 0;
+  width: 560px;
+  font-size: var(--font-size__title_article);
+  line-height: var(--line-height__title_article);
+  font-weight: var(--font-weight_black);
   text-rendering: optimizeLegibility;
+  z-index: 10;
+}
+
+/* @media screen and (max-width: 1279px) {
+  .cover__title {
+  }
+} */
+
+/* @media screen and (max-width: 1023px) {
+  .cover__title {
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    width: 90%;
+    margin: 0 0 16px;
+  }
 }
