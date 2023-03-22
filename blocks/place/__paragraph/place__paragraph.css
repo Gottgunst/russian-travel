@@ -1,7 +1,6 @@
 .place__paragraph {
   margin: 0;
   padding: 0;
-
   font-size: var(--font-size__p_article);
   line-height: var(--line-height__p);
   font-weight: var(--font-weight_reg);

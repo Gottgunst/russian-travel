@@ -19,7 +19,7 @@
 
 .place__website::before {
   --color__text_caption: #CBCBCB;
-  /* цвет c учётом компенсации .8 opacity до #AAA*/
+  /* цвет c учётом компенсации opacity .8 до #AAA*/
   /* чтобы надпись URL не мигала при a:hover */
 
   content: 'URL';
