@@ -3,6 +3,7 @@
 
   display: grid;
   grid-template-columns: var(--first-column) auto;
+  /* grid-template-rows: auto [content] auto; */
   gap: 40px 48px;
 }
 
@@ -22,7 +23,6 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    /* --first-column: 320px; */
     grid-template-columns: 100%;
     gap: 32px;
   }
