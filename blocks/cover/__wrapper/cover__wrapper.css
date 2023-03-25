@@ -22,9 +22,9 @@
     url("../../../images/cover/cover-trains.jpg") 1x);
 
   background-image: image-set(
-    url("../../../images/compressed/cover/cover-trains@2x.webp") 2x,
-    url("../../../images/compressed/cover/cover-trains.webp") 1x,
-    url("../../../images/cover/cover-trains.jpg") 1x);
+    url("../../../images/compressed/cover/cover-trains@2x.webp") type("image/webp") 2x,
+    url("../../../images/compressed/cover/cover-trains.webp") type("image/webp") 1x,
+    url("../../../images/cover/cover-trains.jpg") type("image/jpeg") 1x);
 
   background-size: cover;
   background-position: center;
