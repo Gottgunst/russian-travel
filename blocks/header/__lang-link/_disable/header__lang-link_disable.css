@@ -1,0 +1,9 @@
+.header__lang-link_disable {
+  text-decoration: underline;
+  cursor: default;
+}
+
+.header__lang-link_disable:hover {
+  cursor: default;
+  opacity: 1;
+}

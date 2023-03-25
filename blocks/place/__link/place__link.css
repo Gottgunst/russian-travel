@@ -1,0 +1,17 @@
+.place__link {
+  opacity: 1;
+  color: var(--color__text);
+  font-size: var(--font-size__link_article);
+  line-height: var(--line-height__link_article);
+  font-weight: var(--font-weight_reg);
+  text-underline-offset: 5px;
+  transition: var(--trans__link);
+}
+
+.place__link:hover {
+  opacity: .8;
+}
+
+.place__link:visited {
+  color: var(--color__text);
+}

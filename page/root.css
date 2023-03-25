@@ -12,6 +12,7 @@
 
   --font-size__title_page: 96px;
   --font-size__title_article: 72px;
+  --font-size__title_cover: 72px;
   --font-size__title_intro: 54px;
   --font-size__subtitle_page: 30px;
   --font-size__subtitle_cover: 18px;
@@ -26,15 +27,17 @@
 
   --line-height__title_page: 100px;
   --line-height__title_article: 76px;
+  --line-height__title_cover: 76px;
   --line-height__title_intro: 58px;
   --line-height__subtitle_page: 36px;
   --line-height__subtitle_cover: 22px;
   --line-height__p: 163%;
+  --line-height__link_article: 22px;
   --line-height__line: 1;
   --line-height__list: 18px;
 
   --font-weight_reg: 400;
-  --font-weight_bold: 600;
+  --font-weight_bold: 700;
   --font-weight_black: 900;
 
   --trans__link: opacity .5s ease-out;
@@ -55,7 +58,10 @@
     --padding__section: 24px;
 
     --font-size__title_article: 42px;
+    --font-size__p_article: 16px;
+
     --line-height__title_article: 46px;
+
   }
 }
 
@@ -68,15 +74,16 @@
 
     --font-size__title_page:  clamp(40px,10vw,96px);
     --font-size__title_article: clamp(32px,7vw,42px);
+    --font-size__title_cover: clamp(32px,7vw,72px);
     --font-size__title_intro: clamp(32px,7vw,42px);
     --font-size__subtitle_page: 16px;
     --font-size__subtitle_cover: 14px;
-    --font-size__p_article: 14px;
     --font-size__link_header: 18px;
     --font-size__link_footer: 24px;
 
     --line-height__title_page: clamp(44px,10vw,100px);
     --line-height__title_article: clamp(35px,7vw,46px);
+    --line-height__title_cover: clamp(35px,7vw,76px);
     --line-height__title_intro: clamp(35px,7vw,46px);
     --line-height__subtitle_page: 20px;
     --line-height__subtitle_cover: 16px;

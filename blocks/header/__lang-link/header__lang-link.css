@@ -1,8 +1,7 @@
 .header__lang-link {
-  background: none;
+  display: block;
   margin: 0;
   padding: 0 0 8px;
-  border:0;
   opacity: 1;
   color: var(--color__text);
 
@@ -17,19 +16,6 @@
   cursor: pointer;
 }
 
-/* .header__lang-link:visited {
+.header__lang-link:visited {
   color: var(--color__text);
-} */
-
-.header__lang-link:focus {
-  border: 0;
-}
-
-.header__lang-link:disabled {
-  text-decoration: underline;
-}
-
-.header__lang-link:disabled:hover {
-  opacity: 1;
-  cursor: default;
 }

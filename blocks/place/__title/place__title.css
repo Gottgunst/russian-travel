@@ -7,6 +7,7 @@
   line-height: var(--line-height__title_article);
   font-weight: var(--font-weight_black);
   text-rendering: optimizeLegibility;
+  align-self: end;
 }
 
 @media screen and (max-width: 767px) {

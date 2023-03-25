@@ -10,113 +10,143 @@
 <body class="page">
   <header class="header">
     <div class="header__logo"></div>
-    <nav class="header__lang-links">
-      <button type="button" name="langRu" class="header__lang-link" disabled>Ru</button>
-      <button type="button" name="langEn" class="header__lang-link">En</button>
-    </nav>
+    <ul class="header__lang-links">
+      <li><a class="header__lang-link header__lang-link_disable">Ru</a></li>
+      <li><a class="header__lang-link">En</a></li>
+    </ul>
   </header>
   <main class="main">
     <section class="lead" id="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img src="./images/cover/lead-polka.jpg"
-      srcset="./images/compressed/cover/lead-polka.webp 767w,
-      ./images/compressed/cover/lead-polka@2x.webp 1023w"
-      sizes="(max-width: 767px) 900px,
-      1023px"
-      alt="Нижняя полка занята" class="lead__image">
-      <p class="lead__caption">
-        ваша полка — верхняя</p>
+      <figure class="lead__image-wrapper">
+        <img src="./images/cover/lead-polka.jpg"
+        srcset="./images/compressed/cover/lead-polka.webp 767w,
+        ./images/compressed/cover/lead-polka@2x.webp 1023w"
+        sizes="(max-width: 767px) 900px,
+        1023px"
+        alt="Нижняя полка занята" class="lead__image">
+        <figcaption class="lead__caption">
+          ваша полка — верхняя</figcaption>
+      </figure>
     </section>
     <section class="intro" id="intro">
-      <h4 class="intro__title">Чего мы там не видели?</h4>
+      <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>​Объектов природного наследия ЮНЕСКО 12</li>
-        <li>​Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>​Природных заповедников 105 </li>
-        <li>​Аэропортов 241</li>
+        <li>Часовых поясов <span class="intro__list-number">11</span></li>
+        <li>​Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span></li>
+        <li>​Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span></li>
+        <li>​Природных заповедников <span class="intro__list-number">105</span></li>
+        <li>​Аэропортов <span class="intro__list-number">241</span></li>
       </ul>
     </section>
-    <section class="photo-grid" id="photo-grid">
-        <img src="./images/photo-grid/photo-grid-train.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-train.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-train@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Вид из окна поезда">
-        <img src="./images/photo-grid/photo-grid-atharva-tulsi.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-atharva-tulsi.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-atharva-tulsi@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item"  alt="Вид на горы из самолёта">
-        <img src="./images/photo-grid/photo-grid-tuman.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-tuman.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-tuman@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Пёс на стогу в тумане">
-        <img src="./images/photo-grid/photo-grid-sochi.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-sochi.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-sochi@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Сочинский лес в облаках">
-        <img src="./images/photo-grid/photo-grid-arisa.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-arisa.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-arisa@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Лёд под колесом «буханки»">
-        <img src="./images/photo-grid/photo-grid-baikal.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-baikal.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-baikal@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Песочный берег Байкала">
-        <img src="./images/photo-grid/photo-grid-elbrus.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-elbrus.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-elbrus@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Гора Эльбрус">
-        <img src="./images/photo-grid/photo-grid-kondratiev.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-kondratiev.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-kondratiev@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Волнорезы с пешеходным знаком">
-        <img src="./images/photo-grid/photo-grid-kamchatka-1.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-kamchatka-1.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-kamchatka-1@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Сопки Камчатки" >
-        <img src="./images/photo-grid/photo-grid-kamchatka-2.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-kamchatka-2.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-kamchatka-2@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Гора Камчатки">
-        <img src="./images/photo-grid/photo-grid-baikal-2.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-baikal-2.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-baikal-2@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Байкальский утёс">
-        <img src="./images/photo-grid/photo-grid-ergaki.jpg"
-        srcset="./images/compressed/photo-grid/photo-grid-ergaki.webp 767w,
-        ./images/compressed/photo-grid/photo-grid-ergaki@2x.webp 1023w"
-        sizes="(max-width: 767px) 900px,
-        1023px"
-        class="photo-grid__item" alt="Ергаки в облаках ">
+    <section id="photo-grid">
+      <ul class="photo-grid">
+        <li>
+          <img src="./images/photo-grid/photo-grid-train.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-train.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-train@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Вид из окна поезда">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-atharva-tulsi.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-atharva-tulsi.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-atharva-tulsi@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item"  alt="Вид на горы из самолёта">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-tuman.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-tuman.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-tuman@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Пёс на стогу в тумане">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-sochi.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-sochi.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-sochi@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Сочинский лес в облаках">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-arisa.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-arisa.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-arisa@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Лёд под колесом «буханки»">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-baikal.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-baikal.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-baikal@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Песочный берег Байкала">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-elbrus.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-elbrus.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-elbrus@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Гора Эльбрус">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-kondratiev.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-kondratiev.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-kondratiev@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Волнорезы с пешеходным знаком">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-kamchatka-1.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-kamchatka-1.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-kamchatka-1@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Сопки Камчатки" >
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-kamchatka-2.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-kamchatka-2.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-kamchatka-2@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Гора Камчатки">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-baikal-2.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-baikal-2.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-baikal-2@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Байкальский утёс">
+        </li>
+        <li>
+          <img src="./images/photo-grid/photo-grid-ergaki.jpg"
+          srcset="./images/compressed/photo-grid/photo-grid-ergaki.webp 767w,
+          ./images/compressed/photo-grid/photo-grid-ergaki@2x.webp 1023w"
+          sizes="(max-width: 767px) 900px,
+          1023px"
+          class="photo-grid__item" alt="Ергаки в облаках ">
+        </li>
+      </ul>
     </section>
     <section class="places" id="places">
       <article class="place" id="Kurshskaia_kosa">
         <h2 class="place__title">Куршская коса</h2>
-        <a target="_blank" href="http://park-kosa.ru" class="place__website">park-kosa.ru</a>
+        <div class="place__website">
+          <a target="_blank" href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+        </div>
         <img src="./images/place/place-kosa.jpg"
         srcset="./images/compressed/place/place-kosa.webp 767w,
         ./images/compressed/place/place-kosa@2x.webp 1023w"
@@ -130,7 +160,9 @@
       </article>
       <article class="place" id="Kolskiy">
         <h2 class="place__title">Кольский</h2>
-        <a target="_blank" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__website">National Geographic</a>
+        <div class="place__website">
+          <a target="_blank" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
+        </div>
         <img src="./images/place/place-kolsky.jpg"
         srcset="./images/compressed/place/place-kolsky.webp 767w,
         ./images/compressed/place/place-kolsky@2x.webp 1023w"
@@ -144,7 +176,9 @@
       </article>
       <article class="place" id="Altai">
         <h2 class="place__title">Алтай</h2>
-        <a target="_blank" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ " class="place__website">YouTube ​</a>
+        <div class="place__website">
+          <a target="_blank" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ "  class="place__link">YouTube ​</a>
+        </div>
         <img src="./images/place/place-altai.jpg"
         srcset="./images/compressed/place/place-altai.webp 767w,
         ./images/compressed/place/place-altai@2x.webp 1023w"
@@ -157,7 +191,9 @@
       </article>
       <article class="place" id="Zimni_Baikal">
         <h2 class="place__title">Зимний Байкал</h2>
-        <a target="_blank" href="https://vk.com/baikalmile" class="place__website">https://vk.com/baikalmile</a>
+        <div class="place__website">
+          <a target="_blank" href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+        </div>
         <img src="./images/place/place-winter-baikal.jpg"
         srcset="./images/compressed/place/place-winter-baikal.webp 767w,
         ./images/compressed/place/place-winter-baikal@2x.webp 1023w"
@@ -171,7 +207,9 @@
       </article>
       <article class="place" id="Karelia">
         <h2 class="place__title">Карелия</h2>
-        <a target="_blank" href="http://vodlozero.ru/" class="place__website">http://vodlozero.ru/</a>
+        <div class="place__website">
+          <a target="_blank" href="http://vodlozero.ru/" class="place__link">http://vodlozero.ru/</a>
+        </div>
         <img src="./images/place/place-karelia.jpg"
         srcset="./images/compressed/place/place-karelia.webp 767w,
         ./images/compressed/place/place-karelia@2x.webp 1023w"
@@ -185,7 +223,7 @@
     </section>
     <section class="cover" id="cover">
       <a target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__wrapper">
-        <h3 class="cover__title">До Байкала «на собаках»</h3>
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
       </a>
     </section>

@@ -2,8 +2,8 @@
   margin: 0 0 32px;
   padding: 0;
   width: 560px;
-  font-size: var(--font-size__title_article);
-  line-height: var(--line-height__title_article);
+  font-size: var(--font-size__title_cover);
+  line-height: var(--line-height__title_cover);
   font-weight: var(--font-weight_black);
   text-rendering: optimizeLegibility;
   z-index: 10;
